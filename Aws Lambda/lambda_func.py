@@ -4,7 +4,7 @@ import os
 import boto3
 
 s3_client = boto3.client('s3')  # Changed from resource to client, which is more standard for file uploads
-s3_bucket_name = "moibucket47"
+s3_bucket_name = "moibucket48"
 
 def lambda_handler(event, context):
     print(f"Event collected: {event}")
